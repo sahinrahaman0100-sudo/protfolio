@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lilex:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('Bgg.jpg');
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-image: url('Bg.jpg');
+    top: 0;
+    background-repeat: no-repeat;
+   background-size: 110vw 80vw;
+   min-height: 80vw;
+   background-color: black;
+   
+
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-right: 38vw;
+    height: 55px;
+    padding-left: 30vw;
+} 
+
+.container {
+    height: 80vh;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    gap: 20px;
+
+
+}
+
+li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.943);
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+li a:hover {
+    color: rgb(255, 0, 0);
+    text-shadow: rgb(255, 0, 0);
+    text-decoration: underline rgb(255, 255, 255);
+    
+    
+
+}
+
+a:active {
+   color: rgb(255, 0, 0);
+  
+}
+
+.project {
+    border : #ff0000 1px solid;
+    padding-bottom: 2px;
+    border-radius: 9px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.project a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline rgb(255, 0, 0);
+    text-shadow: rgb(255, 0, 0) 1px 1px 2px;
+    
+}
+
+.project a {
+    color: rgb(255, 0, 0);
+}
+
+#home {
+    text-align: left;
+    padding: 60px 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    
+    
+}
+#contact {
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    
+}
+h2 {
+    font-family: lilex, sans-serif;
+    color: rgb(255, 0, 0);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.font {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+} 
+
+.hi {
+    font-family: 'lilex', sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    
+    display: flex;
+    line-height: 25px;
+    
+
+}
+.web {
+    font-family: 'lilex', sans-serif;
+    font-size: 10px;
+    color: white;
+    margin-right: 1px;
+    margin-top: 0px;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.web1 {
+    color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    text-decoration: underline rgb(255, 0, 0);
+    padding-right: 72vw;
+    
+}
+
+.learn {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 10px;
+}
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    
+}
